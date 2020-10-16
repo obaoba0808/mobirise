@@ -46,7 +46,8 @@
     "sitemapSwitcherAuto": true,
     "siteUrl": false,
     "cookiesAlert": true,
-    "gdpr": true
+    "gdpr": true,
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
