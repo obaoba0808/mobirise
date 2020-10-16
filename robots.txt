@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.obaoba.site/sitemap.xml
