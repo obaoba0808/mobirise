@@ -1,14 +1,4 @@
 @font-face {
-   font-family: '蒙纳简粗雅兰繁';
-   font-display: swap;
-   src: url('蒙纳简粗雅兰繁/font.ttf');
-}
-@font-face {
-   font-family: '蒙纳幼雅丽繁';
-   font-display: swap;
-   src: url('蒙纳幼雅丽繁/font.ttf');
-}
-@font-face {
    font-family: '胡晓波美心常规体';
    font-display: swap;
    src: url('胡晓波美心常规体/font.ttf');
