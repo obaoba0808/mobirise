@@ -236,14 +236,14 @@
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://www.obaoba.site/sitemap.xml",
     "cookiesAlert": {
-      "customDialogSelector": false,
-      "colorText": "#424a4d",
-      "colorBg": "#eaeff1",
+      "customDialogSelector": true,
+      "colorText": "#787324",
+      "colorBg": "#f9f295",
       "colorButton": "",
       "colorLink": "#424a4d",
       "underlineLink": true,
       "opacity": "99",
-      "opacityOverlay": "80",
+      "opacityOverlay": "68",
       "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
       "textButton": "Agree"
     },
