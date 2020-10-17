@@ -1,14 +1,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.obaoba.site/girl.html</loc>
+		<loc>https://www.obaoba.site/sitemap.xml/girl.html</loc>
 	</url>
 	<url>
-		<loc>https://www.obaoba.site/about.html</loc>
+		<loc>https://www.obaoba.site/sitemap.xml/dinner.html</loc>
 	</url>
 	<url>
-		<loc>https://www.obaoba.site/index.html</loc>
+		<loc>https://www.obaoba.site/sitemap.xml/about.html</loc>
 	</url>
-        <url>
-		<loc>https://www.obaoba.site/dinner.html</loc>
+	<url>
+		<loc>https://www.obaoba.site/sitemap.xml/index.html</loc>
 	</url>
 </urlset>
