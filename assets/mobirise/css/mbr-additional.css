@@ -3699,99 +3699,10 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .dropdown-item:hover {
   color: #232323 !important;
 }
-.cid-sdRxHyv5Fh {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #1d1a1a;
+.cid-sdSkggy9sv {
+  background: linear-gradient(45deg, #e4d295, #ff3366);
 }
-.cid-sdRxHyv5Fh .row-links {
-  width: 100%;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-.cid-sdRxHyv5Fh .social-row {
-  width: 100%;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-.cid-sdRxHyv5Fh .media-container-row {
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-.cid-sdRxHyv5Fh .media-container-row .foot-menu {
-  list-style: none;
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0;
-  margin-bottom: 0;
-}
-.cid-sdRxHyv5Fh .media-container-row .foot-menu li {
-  padding: 0 1rem 1rem 1rem;
-}
-.cid-sdRxHyv5Fh .media-container-row .foot-menu li p {
-  margin: 0;
-}
-.cid-sdRxHyv5Fh .media-container-row .social-list {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
-}
-.cid-sdRxHyv5Fh .media-container-row .social-list .mbr-iconfont-social {
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-.cid-sdRxHyv5Fh .media-container-row .social-list .soc-item {
-  margin: 0 .5rem;
-}
-.cid-sdRxHyv5Fh .media-container-row .social-list a {
-  margin: 0;
-  opacity: .5;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
-}
-.cid-sdRxHyv5Fh .media-container-row .social-list a:hover {
-  opacity: 1;
-}
-@media (max-width: 767px) {
-  .cid-sdRxHyv5Fh .media-container-row .social-list {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-}
-.cid-sdRxHyv5Fh .media-container-row .row-copirayt {
-  word-break: break-word;
-  width: 100%;
-}
-.cid-sdRxHyv5Fh .media-container-row .row-copirayt p {
-  width: 100%;
-}
-.cid-sdRxHyv5Fh .media-container-row .mbr-text {
-  color: #484408;
-}
-.cid-sdRxHyv5Fh foot-menu-item {
-  text-align: right;
-}
-.cid-sdSdmDb15C {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
-}
-.cid-sdSdmDb15C P {
-  color: #767676;
-}
-.cid-sdSdmDb15C .mbr-text,
-.cid-sdSdmDb15C .mbr-section-btn H3 {
-  text-align: left;
+.cid-sdSkggy9sv .mbr-section-subtitle {
+  font-style: italic;
+  letter-spacing: 1rem;
 }
