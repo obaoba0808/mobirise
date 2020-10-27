@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "傳播妹 | O-BA傳播",
-    "currentPage": "index.html",
+    "currentPage": "dinner-girl.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -267,7 +267,7 @@
     },
     "robotsText": "User-agent: *\nDisallow:\nSitemap: https://www.obaoba.site/sitemap.xml\n",
     "google-analytics": "<script type=\"application/ld+json\">\n{\n  \"@context\" : \"http://schema.org\",\n  \"@type\" : \"LocalBusiness\",\n  \"name\" : \"O-BA傳播\",\n  \"image\" : \"https://www.obaoba.site/assets/images/123-1-122x101.jpg\",\n  \"telephone\" : \"+886979108866\",\n  \"address\" : {\n    \"@type\" : \"PostalAddress\",\n    \"addressLocality\" : \"taipei\"\n  },\n  \"url\" : \"https://www.obaoba.site/\"\n}\n  </script>",
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "about.html": {
