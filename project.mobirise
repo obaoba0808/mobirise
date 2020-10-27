@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "傳播妹 | O-BA傳播",
-    "currentPage": "index.html",
+    "currentPage": "dinner-girl.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -223,6 +223,18 @@
         "name": "造字工房鼎黑",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/%E9%80%A0%E5%AD%97%E5%B7%A5%E6%88%BF%E9%BC%8E%E9%BB%91/font.ttf"
+      },
+      {
+        "css": "'胡晓波美心常规体'",
+        "name": "胡晓波美心常规体",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/%E8%83%A1%E6%99%93%E6%B3%A2%E7%BE%8E%E5%BF%83%E5%B8%B8%E8%A7%84%E4%BD%93/font.ttf"
+      },
+      {
+        "css": "'华康流隶体PW5'",
+        "name": "华康流隶体PW5",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/%E5%8D%8E%E5%BA%B7%E6%B5%81%E9%9A%B6%E4%BD%93PW5/font.ttf"
       },
       {
         "css": "'胡晓波美心常规体'",
