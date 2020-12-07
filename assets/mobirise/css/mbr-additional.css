@@ -3059,7 +3059,7 @@ section.lazy-placeholder:after {
 }
 .cid-rS6c2yzKrE .timeline-text-content {
   padding: 2rem 2.5rem;
-  background: #faee3c;
+  background: #fff829;
   margin-right: 2rem;
   transition: all .4s;
 }
@@ -3096,7 +3096,7 @@ section.lazy-placeholder:after {
   text-align: center;
   border-radius: 50%;
   display: inline-block;
-  background-color: #faee3c;
+  background-color: #fff829;
   top: 20px;
   margin-left: -30px;
 }
@@ -3115,7 +3115,7 @@ section.lazy-placeholder:after {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #faee3c;
+  background-color: #fff829;
   left: calc(50% - 1px);
   height: calc(100% + 4rem);
 }
@@ -3140,6 +3140,9 @@ section.lazy-placeholder:after {
 }
 .cid-rS6c2yzKrE .mbr-timeline-title {
   color: #ff3366;
+}
+.cid-rS6c2yzKrE .mbr-timeline-text {
+  color: #6a6405;
 }
 .cid-rS6evxGz4Z {
   padding-top: 90px;
