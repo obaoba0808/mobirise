@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "傳播妹 | O-BA傳播",
-    "currentPage": "girl.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -293,7 +293,7 @@
         "meta_descr": "關於我們:秉持熱忱 積極的勤業態度 專業 誠信的理念 力行品質管控 以多元發展 創新 提供府和顧客需求的項目與完善服務 達到客戶滿意der Description",
         "title": "關於我們",
         "order": 3,
-        "meta_image": "@PROJECT_PATH@/assets/images/black-white-series-1-574x218.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/black-white-series-1-574x218.jpeg"
       },
       "components": [
         {
@@ -945,7 +945,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/121799181_1272507583086773_5726284243098488512_n-1656x630.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/125326595_3565347553512527_1332093536913782232_n-600x600.jpg"
       },
       "components": [
         {
@@ -1822,7 +1822,7 @@
         "meta_descr": "台北傳播妹 ＫＴＶ包廂 吃喝玩樂。『唱歌沒妹妹怎麼歡樂阿』\n優惠方案：生日陪過 ，慶生專用妹。『生日不用再是一個人』\n輔助您場面倒酒服務妹『保證出門不漏氣』",
         "title": "傳播妹",
         "order": 1,
-        "meta_image": "@PROJECT_PATH@/assets/images/1-1040x520.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/let's%20create%20at%20reallygreatsite.com-600x227.jpg"
       },
       "components": [
         {
@@ -2677,7 +2677,7 @@
         "meta_descr": "飯局小姐 要求高學歷 長得漂亮、談吐更是要得體 陪同這些政商名流達官顯要出席應酬飯局 不同知名度的飯局妹有不同價碼。 ",
         "title": "飯局妹",
         "order": 2,
-        "meta_image": "@PROJECT_PATH@/assets/images/3-1040x520.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/1-600x600.jpg"
       },
       "components": [
         {
