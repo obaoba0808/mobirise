@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "傳播妹 | O-BA傳播",
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -285,7 +285,9 @@
     },
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "publishChangesOnly": false,
-    "google-analytics": "<!-- Analytics -->\t\n<script type=\"application/ld+json\">\t\n{\t\n  \"@context\" : \"http://schema.org\",\t\n  \"@type\" : \"LocalBusiness\",\t\n  \"name\" : \"O-BA傳播\",\t\n  \"image\" : \"https://www.obaoba.site/assets/images/123-1-122x101.jpg\",\t\n  \"telephone\" : \"+886979108866\",\t\n  \"address\" : {\t\n    \"@type\" : \"PostalAddress\",\t\n    \"addressLocality\" : \"taipei\"\t\n  },\t\n  \"url\" : \"https://www.obaoba.site/\"\t\n}\t\n  </script>\t\n<!-- /Analytics -->"
+    "google-analytics": "<!-- Analytics -->\t\n<script type=\"application/ld+json\">\t\n{\t\n  \"@context\" : \"http://schema.org\",\t\n  \"@type\" : \"LocalBusiness\",\t\n  \"name\" : \"O-BA傳播\",\t\n  \"image\" : \"https://www.obaoba.site/assets/images/123-1-122x101.jpg\",\t\n  \"telephone\" : \"+886979108866\",\t\n  \"address\" : {\t\n    \"@type\" : \"PostalAddress\",\t\n    \"addressLocality\" : \"taipei\"\t\n  },\t\n  \"url\" : \"https://www.obaoba.site/\"\t\n}\t\n  </script>\t\n<!-- /Analytics -->",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "about.html": {
