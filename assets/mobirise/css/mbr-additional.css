@@ -2325,9 +2325,15 @@ section.lazy-placeholder:after {
   background-color: #fdb600;
   background: linear-gradient(45deg, #fdb600, #ff3567);
 }
+.cid-shVtS7IO4B .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
 @media (min-width: 992px) {
   .cid-shVtS7IO4B .mbr-figure {
     padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
   }
 }
 @media (max-width: 991px) {
