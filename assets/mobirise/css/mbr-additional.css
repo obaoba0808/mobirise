@@ -10,7 +10,7 @@ body {
   font-size: 4.48rem;
 }
 .display-2 {
-  font-family: '蒙纳幼雅丽繁';
+  font-family: '清松手寫體2';
   font-size: 2rem;
   font-display: swap;
 }
@@ -34,7 +34,7 @@ body {
   font-size: 2.88rem;
 }
 .display-7 {
-  font-family: '蒙纳简粗雅兰繁';
+  font-family: '华康心动体繁';
   font-size: 1.5rem;
   font-display: swap;
 }
@@ -89,7 +89,7 @@ body {
   background-color: #fdee00 !important;
 }
 .bg-success {
-  background-color: #ffd200 !important;
+  background-color: #ffcb00 !important;
 }
 .bg-info {
   background-color: #ff3366 !important;
@@ -162,8 +162,8 @@ body {
 }
 .btn-success,
 .btn-success:active {
-  background-color: #ffd200 !important;
-  border-color: #ffd200 !important;
+  background-color: #ffcb00 !important;
+  border-color: #ffcb00 !important;
   color: #000000 !important;
 }
 .btn-success:hover,
@@ -171,14 +171,14 @@ body {
 .btn-success.focus,
 .btn-success.active {
   color: #000000 !important;
-  background-color: #b39300 !important;
-  border-color: #b39300 !important;
+  background-color: #b38e00 !important;
+  border-color: #b38e00 !important;
 }
 .btn-success.disabled,
 .btn-success:disabled {
   color: #000000 !important;
-  background-color: #b39300 !important;
-  border-color: #b39300 !important;
+  background-color: #b38e00 !important;
+  border-color: #b38e00 !important;
 }
 .btn-warning,
 .btn-warning:active {
@@ -326,22 +326,22 @@ body {
 .btn-success-outline,
 .btn-success-outline:active {
   background: none;
-  border-color: #997e00;
-  color: #997e00;
+  border-color: #997a00;
+  color: #997a00;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
 .btn-success-outline.focus,
 .btn-success-outline.active {
   color: #000000;
-  background-color: #ffd200;
-  border-color: #ffd200;
+  background-color: #ffcb00;
+  border-color: #ffcb00;
 }
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
   color: #000000 !important;
-  background-color: #ffd200 !important;
-  border-color: #ffd200 !important;
+  background-color: #ffcb00 !important;
+  border-color: #ffcb00 !important;
 }
 .btn-warning-outline,
 .btn-warning-outline:active {
@@ -424,7 +424,7 @@ body {
   color: #ff9b06 !important;
 }
 .text-success {
-  color: #ffd200 !important;
+  color: #ffcb00 !important;
 }
 .text-info {
   color: #ff3366 !important;
@@ -451,7 +451,7 @@ a.text-secondary:focus {
 }
 a.text-success:hover,
 a.text-success:focus {
-  color: #997e00 !important;
+  color: #997a00 !important;
 }
 a.text-info:hover,
 a.text-info:focus {
@@ -521,7 +521,7 @@ a:hover {
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
-  color: #fff6cc;
+  color: #fff5cc;
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
@@ -540,7 +540,7 @@ a:hover {
   border-radius: 100px;
 }
 .form-control {
-  font-family: '蒙纳简粗雅兰繁';
+  font-family: '华康心动体繁';
   font-size: 1.5rem;
   font-display: swap;
 }
@@ -1221,6 +1221,9 @@ section.lazy-placeholder:after {
 .cid-shPtP0l8Qm foot-menu-item {
   text-align: right;
 }
+.cid-shPtP0l8Qm foot-menu-item I {
+  color: #fff000;
+}
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
   background: #000000;
@@ -1603,8 +1606,6 @@ section.lazy-placeholder:after {
   color: #232323 !important;
 }
 .cid-qTkA127IK8 {
-  padding-top: 75px;
-  padding-bottom: 45px;
   background-image: url("../../../assets/images/2773-12031220551890-1000x734.jpeg");
 }
 .cid-qTkA127IK8 H1 {
@@ -1937,6 +1938,9 @@ section.lazy-placeholder:after {
 }
 .cid-shPtP0l8Qm foot-menu-item {
   text-align: right;
+}
+.cid-shPtP0l8Qm foot-menu-item I {
+  color: #fff000;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
@@ -2325,9 +2329,15 @@ section.lazy-placeholder:after {
   background-color: #fdb600;
   background: linear-gradient(45deg, #fdb600, #ff3567);
 }
+.cid-shVtS7IO4B .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
 @media (min-width: 992px) {
   .cid-shVtS7IO4B .mbr-figure {
     padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
   }
 }
 @media (max-width: 991px) {
@@ -2608,6 +2618,9 @@ section.lazy-placeholder:after {
 }
 .cid-shPtP0l8Qm foot-menu-item {
   text-align: right;
+}
+.cid-shPtP0l8Qm foot-menu-item I {
+  color: #fff000;
 }
 .cid-rS68T2xlSH .navbar {
   padding: .5rem 0;
@@ -3277,4 +3290,7 @@ section.lazy-placeholder:after {
 }
 .cid-shPtP0l8Qm foot-menu-item {
   text-align: right;
+}
+.cid-shPtP0l8Qm foot-menu-item I {
+  color: #fff000;
 }
