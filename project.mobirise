@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "傳播妹 | O-BA傳播",
-    "currentPage": "lust-index.html",
+    "currentPage": "privacy-policy.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#fffef0",
+        "#ffd409",
+        "#f2ff00",
         "#fffef2",
         "#ffd200",
         "#5d490c",
-        "#9a7915",
-        "#f68e24",
-        "#fb38a9",
-        "#eaff7f"
+        "#9a7915"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -352,7 +352,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 105,
+    "uniqCompNum": 108,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -3120,28 +3120,61 @@
           "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              }
             },
-            ".mbr-section-title": {
-              "color": "#6a6405"
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                "padding-bottom": "3rem"
+              }
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            },
+            "H1": {
+              "color": "#5d490c",
+              "text-align": "right"
+            },
+            "H3": {
+              "text-align": "right"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "right"
             }
           },
-          "_name": "header5",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\" selected>Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/3-1-1920x1080.jpeg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f68e24\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b><br><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">夜生活娛樂相關資訊</h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise gives you the freedom to develop as many websites as you like.</p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-warning-outline\" href=\"tel:+886979108866\" data-app-placeholder=\"Type Text\">立即通話</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sk2maie4qd",
-          "_anchor": "header5-1q",
+          "_name": "header3",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"105\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/3-1920x1080.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffd409\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#f68e24\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <a href=\"#top\"><img src=\"@PROJECT_PATH@/assets/images/3-1920x1080.jpeg\" alt=\"情報特搜| 傳播妹\"></a>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\"><b><i>\n                    情報特搜</i></b></h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    夜生活娛樂</h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-5\">統整八大行業相關資訊等熱門文章</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "skhd8aSIz9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "header3-2x"
         },
         {
           "alias": false,
@@ -5297,13 +5330,13 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".mbr-section-subtitle": {
-              "color": "#767676",
+              "color": "#232323",
               "text-align": "left"
             }
           },
           "_name": "content4",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>\n                    隱私權條款\n                </b><div><br></div></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">我們是誰\n<div>我們的網站網址為 https://obaoba.site\n</div><div>這個網站收集了哪些個人資訊，以及為什麼要收集這些資訊 留言\n</div><div>使用者在這個網站發佈留言後，我們會收集顯示於留言表單中的資料、使用者的來源 IP 位址及瀏覽器的使用者代理程式字串，以協助網站偵測垃圾留言。\n</div><div>\n</div><div>這個網站會根據使用者的電子郵件地址建立匿名字串（亦稱為雜湊值），並提供給 Gravatar 個人頭像服務以查詢這位使用者是否為這項服務的使用者。如需瞭解 Gravatar 個人頭像服務的隱私權政策，請造訪 https://obaoba.site/privacy/。網站管理員核准使用者發佈的留言後，使用者的個人資料圖片便會在留言內容中公開顯示。\n</div><div>\n</div><div>媒體 如需將圖片上傳至這個網站，請避免上傳內嵌 EXIF GPS 位置資料的圖片，因為其他使用者可以從網站上下載圖片並擷取當中的位置資料 聯絡表單 Cookie\n</div><div>\n</div><div>使用者在這個網站發佈留言時，可以選擇是否在 Cookie 中儲存使用者姓名、電子郵件地址及網站網址；儲存這些資料是為了使用者更加方便，以便讓使用者發佈其他留言時，無需再次填寫個人資料。在使用者不自行清除裝置 Cookie 的狀況下，這些 Cookie 在個人裝置上保留一年。\n</div><div>如果使用者有這個網站的帳號可進行登入，網站會設定一個臨時 Cookie 以確定使用者的瀏覽器是否接受 Cookie；這個 Cookie 不包含任何個人資料，並會在使用者關閉瀏覽器時捨棄。\n</div><div>\n</div><div>使用者登入網站後，系統會設定幾個 Cookie 以儲存使用者的登入資訊及顯示項目設定；登入資訊 Cookie 會保留兩天，顯示項目設定 Cookie 則會保留一年。如果登入時核取了 [保持登入] 這項設定，使用者的登入狀態會維持兩週；帳號登出後，便會移除使用者裝置上的登入資訊 Cookie。\n</div><div>使用者編輯或發佈文章時，會在瀏覽器中儲存其他 Cookie。這個 Cookie 不包含任何個人資料，僅記錄表示使用者撰寫的文章的文章 ID，並會在一天後過期。\n</div><div>來自第三方網站的嵌入內容\n</div><div>這個網站上的文章可能會嵌入視訊、圖片、文章等內容，而來自第三方網站的嵌入內容，其隱私權處理方式與使用者造訪這些網站時的規定完全相同。\n</div><div>\n</div><div>這些第三方網站可能會以下列方式收集與使用者相關的資料：Cookie、嵌入第三方追蹤程式碼、監視使用者與嵌入內容的互動（無論使用者是否有網站帳號或是否登入網站。\n</div><div>使用者資料分析\n</div><div>這個網站的個人資料分享對象\n</div><div>這個網站的個人資料保留期限\n</div><div>\n</div><div>當使用者在這個網站發佈留言後，該則留言及其中繼資料將會無限期保留。這樣系統便可以自動辨識及核准任何後續留言，而不須將其保留在待審核的佇列中。\n</div><div>針對在這個網站上註冊的使用者，這個網站還會儲存他們在使用者 [個人資料] 頁面中提供的個人資訊。所有使用者都可以隨時查看、編輯或刪除自己的個人資訊（無法變更的使用者名稱除外）。請注意，網站管理員也可以查看及編輯這些個人資訊。\n</div><div>使用者對個人資料擁有哪些權利\n</div><div>\n</div><div>如果使用者在這個網站擁有帳戶或曾發佈留言，便可以要求下載使用者在這個網站上的個人資料的匯出檔，這個檔案包含使用者提供給這個網站的所有個人資料。使用者也可以要求清除曾提供給這個網站的所有個人資料，但這項要求不包含站方為了管理、法律或安全目的而必須保留的相關資料。\n</div><div>這個網站會將使用者資料傳送至何處\n</div><div>\n</div><div>使用者留言資料會傳送至垃圾留言自動偵測服務進行檢查。\n</div><div>網站聯絡資訊\n</div><div>其他資訊\n</div><div>這個網站保護個人資料的方式\n</div><div>這個網站會採取的個人資料外洩處理程序\n</div><div>這個網站會從第三方接收哪些個人資料\n</div><div>這個網站對使用者個人資料進行了哪些自動化決策或分析\n</div><div>監管行業揭露需求</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#fffef0\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>\n                    隱私權條款\n                </b><div><br></div></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">我們是誰\n<div>我們的網站網址為 https://obaoba.site\n</div><div>這個網站收集了哪些個人資訊，以及為什麼要收集這些資訊 留言\n</div><div>使用者在這個網站發佈留言後，我們會收集顯示於留言表單中的資料、使用者的來源 IP 位址及瀏覽器的使用者代理程式字串，以協助網站偵測垃圾留言。\n</div><div>\n</div><div>這個網站會根據使用者的電子郵件地址建立匿名字串（亦稱為雜湊值），並提供給 Gravatar 個人頭像服務以查詢這位使用者是否為這項服務的使用者。如需瞭解 Gravatar 個人頭像服務的隱私權政策，請造訪 https://obaoba.site/privacy/。網站管理員核准使用者發佈的留言後，使用者的個人資料圖片便會在留言內容中公開顯示。\n</div><div>\n</div><div>媒體 如需將圖片上傳至這個網站，請避免上傳內嵌 EXIF GPS 位置資料的圖片，因為其他使用者可以從網站上下載圖片並擷取當中的位置資料 聯絡表單 Cookie\n</div><div>\n</div><div>使用者在這個網站發佈留言時，可以選擇是否在 Cookie 中儲存使用者姓名、電子郵件地址及網站網址；儲存這些資料是為了使用者更加方便，以便讓使用者發佈其他留言時，無需再次填寫個人資料。在使用者不自行清除裝置 Cookie 的狀況下，這些 Cookie 在個人裝置上保留一年。\n</div><div>如果使用者有這個網站的帳號可進行登入，網站會設定一個臨時 Cookie 以確定使用者的瀏覽器是否接受 Cookie；這個 Cookie 不包含任何個人資料，並會在使用者關閉瀏覽器時捨棄。\n</div><div>\n</div><div>使用者登入網站後，系統會設定幾個 Cookie 以儲存使用者的登入資訊及顯示項目設定；登入資訊 Cookie 會保留兩天，顯示項目設定 Cookie 則會保留一年。如果登入時核取了 [保持登入] 這項設定，使用者的登入狀態會維持兩週；帳號登出後，便會移除使用者裝置上的登入資訊 Cookie。\n</div><div>使用者編輯或發佈文章時，會在瀏覽器中儲存其他 Cookie。這個 Cookie 不包含任何個人資料，僅記錄表示使用者撰寫的文章的文章 ID，並會在一天後過期。\n</div><div>來自第三方網站的嵌入內容\n</div><div>這個網站上的文章可能會嵌入視訊、圖片、文章等內容，而來自第三方網站的嵌入內容，其隱私權處理方式與使用者造訪這些網站時的規定完全相同。\n</div><div>\n</div><div>這些第三方網站可能會以下列方式收集與使用者相關的資料：Cookie、嵌入第三方追蹤程式碼、監視使用者與嵌入內容的互動（無論使用者是否有網站帳號或是否登入網站。\n</div><div>使用者資料分析\n</div><div>這個網站的個人資料分享對象\n</div><div>這個網站的個人資料保留期限\n</div><div>\n</div><div>當使用者在這個網站發佈留言後，該則留言及其中繼資料將會無限期保留。這樣系統便可以自動辨識及核准任何後續留言，而不須將其保留在待審核的佇列中。\n</div><div>針對在這個網站上註冊的使用者，這個網站還會儲存他們在使用者 [個人資料] 頁面中提供的個人資訊。所有使用者都可以隨時查看、編輯或刪除自己的個人資訊（無法變更的使用者名稱除外）。請注意，網站管理員也可以查看及編輯這些個人資訊。\n</div><div>使用者對個人資料擁有哪些權利\n</div><div>\n</div><div>如果使用者在這個網站擁有帳戶或曾發佈留言，便可以要求下載使用者在這個網站上的個人資料的匯出檔，這個檔案包含使用者提供給這個網站的所有個人資料。使用者也可以要求清除曾提供給這個網站的所有個人資料，但這項要求不包含站方為了管理、法律或安全目的而必須保留的相關資料。\n</div><div>這個網站會將使用者資料傳送至何處\n</div><div>\n</div><div>使用者留言資料會傳送至垃圾留言自動偵測服務進行檢查。\n</div><div>網站聯絡資訊\n</div><div>其他資訊\n</div><div>這個網站保護個人資料的方式\n</div><div>這個網站會採取的個人資料外洩處理程序\n</div><div>這個網站會從第三方接收哪些個人資料\n</div><div>這個網站對使用者個人資料進行了哪些自動化決策或分析\n</div><div>監管行業揭露需求</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "skgSnYdgg7",
           "_protectedParams": [],
           "_global": false,
