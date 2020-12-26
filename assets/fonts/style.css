@@ -9,9 +9,14 @@
    src: url('清松手寫體2/font.ttf');
 }
 @font-face {
-   font-family: '蒙纳幼雅丽繁';
+   font-family: 'FZRuiZYJW_Zhun';
    font-display: swap;
-   src: url('蒙纳幼雅丽繁/font.ttf');
+   src: url('FZRuiZYJW_Zhun/font.TTF');
+}
+@font-face {
+   font-family: '蒙纳简粗雅兰繁';
+   font-display: swap;
+   src: url('蒙纳简粗雅兰繁/font.ttf');
 }
 @font-face {
    font-family: '蒙纳简粗雅兰繁';

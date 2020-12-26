@@ -3,11 +3,19 @@ body {
 }
 .display-1 {
   font-family: 'FZMoDTJF_Da';
+<<<<<<< Updated upstream
   font-size: 3.5rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
   font-size: 5.6rem;
+=======
+  font-size: 3.6rem;
+  font-display: swap;
+}
+.display-1 > .mbr-iconfont {
+  font-size: 5.76rem;
+>>>>>>> Stashed changes
 }
 .display-2 {
   font-family: '清松手寫體2';
@@ -26,12 +34,12 @@ body {
   font-size: 1.92rem;
 }
 .display-5 {
-  font-family: '蒙纳幼雅丽繁';
-  font-size: 1.8rem;
+  font-family: 'FZRuiZYJW_Zhun';
+  font-size: 2rem;
   font-display: swap;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.88rem;
+  font-size: 3.2rem;
 }
 .display-7 {
   font-family: '蒙纳简粗雅兰繁';
@@ -48,9 +56,15 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
+<<<<<<< Updated upstream
     font-size: 2.8rem;
     font-size: calc( 1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)));
     line-height: calc( 1.4 * (1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20))));
+=======
+    font-size: 2.88rem;
+    font-size: calc( 1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.91rem + (3.6 - 1.91) * ((100vw - 20rem) / (48 - 20))));
+>>>>>>> Stashed changes
   }
   .display-2 {
     font-size: 2rem;
@@ -63,9 +77,9 @@ body {
     line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.44rem;
-    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1614,7 +1628,11 @@ section.lazy-placeholder:after {
 }
 .cid-qTkA127IK8 H3 {
   text-align: right;
+<<<<<<< Updated upstream
   color: #ffcf00;
+=======
+  color: #ffd619;
+>>>>>>> Stashed changes
 }
 .cid-qTkA127IK8 .mbr-text,
 .cid-qTkA127IK8 .mbr-section-btn {
@@ -3686,6 +3704,15 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .dropdown-item:hover {
   color: #232323 !important;
 }
+<<<<<<< Updated upstream
+=======
+.cid-sk2maie4qd {
+  background-image: url("../../../assets/images/3-1-1920x1080.jpeg");
+}
+.cid-sk2maie4qd .mbr-section-title {
+  color: #6a6405;
+}
+>>>>>>> Stashed changes
 .cid-sk6By2HxmF {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -4200,11 +4227,34 @@ section.lazy-placeholder:after {
 .cid-sk3yYh5jQo .dropdown-item:hover {
   color: #232323 !important;
 }
+<<<<<<< Updated upstream
 .cid-sk3yYik3cU {
   background-image: url("../../../assets/images/2-3-1920x1080.jpg");
+=======
+.cid-skfuFUs6jf {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffd200;
+  background: linear-gradient(45deg, #ffd200, #f68e24);
+>>>>>>> Stashed changes
 }
-.cid-sk3yYik3cU .mbr-section-title {
-  color: #6a6405;
+@media (min-width: 992px) {
+  .cid-skfuFUs6jf .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-skfuFUs6jf .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-skfuFUs6jf .mbr-text {
+    text-align: center;
+  }
+}
+.cid-skfuFUs6jf H1 {
+  color: #4e4b07;
 }
 .cid-sk3yYjf7xM {
   padding-top: 5rem;
