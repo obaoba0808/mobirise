@@ -9,7 +9,17 @@
    src: url('清松手寫體2/font.ttf');
 }
 @font-face {
+   font-family: '胡晓波美心常规体';
+   font-display: swap;
+   src: url('胡晓波美心常规体/font.ttf');
+}
+@font-face {
    font-family: '蒙纳简粗雅兰繁';
    font-display: swap;
    src: url('蒙纳简粗雅兰繁/font.ttf');
+}
+@font-face {
+   font-family: 'FZMoDTJF_Zhong';
+   font-display: swap;
+   src: url('FZMoDTJF_Zhong/font.TTF');
 }
