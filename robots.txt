@@ -2,6 +2,4 @@ User-agent: *
 Allow: /
 
 
-
 Sitemap: https://obaoba.site/sitemap.xml
-
