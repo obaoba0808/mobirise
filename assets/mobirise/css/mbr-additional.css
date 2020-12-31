@@ -3618,7 +3618,7 @@ section.lazy-placeholder:after {
 .cid-skvkmyLVXl {
   padding-top: 30px;
   padding-bottom: 0px;
-  background-color: #44410c;
+  background-color: #242306;
 }
 .cid-skvkmyLVXl .mbr-text,
 .cid-skvkmyLVXl blockquote {
@@ -3628,7 +3628,7 @@ section.lazy-placeholder:after {
 .cid-skvociUHxe {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/113farncombehaworth-2034900x-900x1351.jpg");
 }
 .cid-skvociUHxe .card-box {
   padding: 0 2rem;
@@ -3657,7 +3657,7 @@ section.lazy-placeholder:after {
 .cid-skvociUHxe .card-wrapper {
   height: 100%;
   padding-bottom: 2rem;
-  background: #080806;
+  background: #242306;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
 }
@@ -3667,6 +3667,11 @@ section.lazy-placeholder:after {
 }
 .cid-skvociUHxe .card-title {
   color: #746f21;
+}
+.cid-skKzsOM6nn {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  background-image: linear-gradient(135deg, #f5cf16 10%, #ffb908 100%) !important;
 }
 .cid-sk6L4CPWTV {
   padding-top: 30px;
