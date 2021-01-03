@@ -35,11 +35,11 @@ body {
 }
 .display-7 {
   font-family: '蒙纳幼雅丽繁';
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-display: swap;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 2.72rem;
+  font-size: 2.56rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -541,11 +541,11 @@ a:hover {
 }
 .form-control {
   font-family: '蒙纳幼雅丽繁';
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-display: swap;
 }
 .form-control > .mbr-iconfont {
-  font-size: 2.72rem;
+  font-size: 2.56rem;
 }
 blockquote {
   border-color: #fdee00;
@@ -4306,10 +4306,39 @@ section.lazy-placeholder:after {
   color: #a39a08;
   text-align: center;
 }
+.cid-sl3s70CNF9 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-sl3s70CNF9 .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sl3s70CNF9 .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sl3s70CNF9 .mbr-text {
+    text-align: center;
+  }
+}
+.cid-sl3s70CNF9 H1 {
+  color: #232323;
+  text-align: left;
+}
+.cid-sl3s70CNF9 .mbr-text,
+.cid-sl3s70CNF9 .mbr-section-btn {
+  color: #5c5a10;
+  text-align: center;
+}
 .cid-rS5rO5Vv45 {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #fffcd5;
+  background-color: #ffffff;
 }
 .cid-rS5rO5Vv45 .socicon-bg-facebook {
   background: #3e5b98;
