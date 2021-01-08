@@ -379,10 +379,40 @@
         "name": "FZMoDTJF_Zhong",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/FZMoDTJF_Zhong/font.TTF"
+      },
+      {
+        "css": "'FZMoDTJF_Da'",
+        "name": "FZMoDTJF_Da",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/FZMoDTJF_Da/font.TTF"
+      },
+      {
+        "css": "'清松手寫體2'",
+        "name": "清松手寫體2",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/%E6%B8%85%E6%9D%BE%E6%89%8B%E5%AF%AB%E9%AB%942/font.ttf"
+      },
+      {
+        "css": "'蒙纳简粗雅兰繁'",
+        "name": "蒙纳简粗雅兰繁",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/%E8%92%99%E7%BA%B3%E7%AE%80%E7%B2%97%E9%9B%85%E5%85%B0%E7%B9%81/font.ttf"
+      },
+      {
+        "css": "'蒙纳幼雅丽繁'",
+        "name": "蒙纳幼雅丽繁",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/%E8%92%99%E7%BA%B3%E5%B9%BC%E9%9B%85%E4%B8%BD%E7%B9%81/font.ttf"
+      },
+      {
+        "css": "'FZMoDTJF_Zhong'",
+        "name": "FZMoDTJF_Zhong",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/FZMoDTJF_Zhong/font.TTF"
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 137,
+    "uniqCompNum": 145,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -411,7 +441,9 @@
     },
     "robotsText": "User-agent: *\nAllow: /\n\nSitemap: https://obaoba.site/sitemap.xml\n\n\n",
     "publishChangesOnly": true,
-    "google-analytics": "<!-- Analytics -->\t\n<script type=\"application/ld+json\">\t\n{\t\n  \"@context\" : \"http://schema.org\",\t\n  \"@type\" : \"LocalBusiness\",\t\n  \"name\" : \"O-BA傳播\",\t\n  \"image\" : \"https://obaoba.site/assets/images/123-1-122x101.jpg\",\t\n  \"telephone\" : \"+886979108866\",\t\n  \"address\" : {\t\n    \"@type\" : \"PostalAddress\",\t\n    \"addressLocality\" : \"taipei\"\t\n  },\t\n  \"url\" : \"https://obaoba.site/\"\t\n}\t\n  </script>\t\n<!-- /Analytics -->"
+    "google-analytics": "<!-- Analytics -->\t\n<script type=\"application/ld+json\">\t\n{\t\n  \"@context\" : \"http://schema.org\",\t\n  \"@type\" : \"LocalBusiness\",\t\n  \"name\" : \"O-BA傳播\",\t\n  \"image\" : \"https://obaoba.site/assets/images/123-1-122x101.jpg\",\t\n  \"telephone\" : \"+886979108866\",\t\n  \"address\" : {\t\n    \"@type\" : \"PostalAddress\",\t\n    \"addressLocality\" : \"taipei\"\t\n  },\t\n  \"url\" : \"https://obaoba.site/\"\t\n}\t\n  </script>\t\n<!-- /Analytics -->",
+    "dppsSwitcher": true,
+    "spellingSwitch": true
   },
   "pages": {
     "about.html": {
@@ -4741,7 +4773,7 @@
         "title": "傳播妹 | O-BA傳播",
         "meta_descr": "找台北傳播公司叫傳播妹 -網友推薦首選 | O-BA傳播\n傳播妹 混血 麻豆 中韓學生 小模 空姐 留學生 等應有盡有唷 我們絕對幫您安排 經過把關嚴選 個個是精選 內行人首選 ",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n<div class=\"elfsight-app-666c5290-ca1f-47a4-aad7-0ac5c5a0e698\"></div>",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/index-meta.jpeg"
       },
