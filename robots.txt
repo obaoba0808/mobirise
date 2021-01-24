@@ -1,0 +1,9 @@
+user-agent: *
+disallow: /cig-bin
+disallow:/members/data
+disallow:/*.pdf$
+
+
+Sitemap: https://obaoba.site/sitemap.xml
+
+
